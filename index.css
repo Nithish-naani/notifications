@@ -1,0 +1,144 @@
+/* Write your code here. */
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  color: #0f172a;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.box-container {
+  display: flex;
+  flex-direction: column;
+}
+.information {
+  background-color: #0b69ff;
+  height: 6vh;
+  width: 30vw;
+  border-radius: 4px;
+  margin-top: 10px;
+  display: flex;
+}
+.icon {
+  color: #ffffff;
+  height: 50px;
+  width: 50px;
+}
+.success {
+  background-color: #2dca73;
+  height: 6vh;
+  width: 30vw;
+  border-radius: 4px;
+  margin-top: 10px;
+  display: flex;
+}
+.warning {
+  background-color: #ffb800;
+  height: 6vh;
+  width: 30vw;
+  border-radius: 4px;
+  margin-top: 10px;
+  display: flex;
+}
+.error {
+  background-color: #ff0b37;
+  height: 6vh;
+  width: 30vw;
+  border-radius: 4px;
+  margin-top: 10px;
+  display: flex;
+}
+.text {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight: normal;
+  font-size: 10px;
+}
+
+@media (min-width: 768px) {
+  .bg-container {
+    background-color: #ffffff;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .heading {
+    color: #0f172a;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .box-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .information {
+    background-color: #0b69ff;
+    height: 9vh;
+    width: 40vw;
+    border-radius: 6px;
+    margin-top: 18px;
+    display: flex;
+  }
+  .icon {
+    color: #ffffff;
+    height: 80px;
+    width: 80px;
+  }
+  .success {
+    background-color: #2dca73;
+    height: 9vh;
+    width: 40vw;
+    border-radius: 6px;
+    margin-top: 18px;
+    display: flex;
+  }
+  .warning {
+    background-color: #ffb800;
+    height: 9vh;
+    width: 40vw;
+    border-radius: 6px;
+    margin-top: 18px;
+    display: flex;
+  }
+  .error {
+    background-color: #ff0b37;
+    height: 9vh;
+    width: 40vw;
+    border-radius: 6px;
+    margin-top: 18px;
+    display: flex;
+  }
+  .text {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 10px;
+  }
+  .notification-container {
+    margin-bottom: 48px;
+    padding-top: 16px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+  }
+  .notification-container {
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    margin-bottom: 32px;
+    padding-top: 12px;
+    padding-right: 8px;
+  }
+}
